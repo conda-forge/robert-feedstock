@@ -1,13 +1,13 @@
 {% set name = "robert" %}
-{% set version = "1.2.1" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/robert-{{ version }}.tar.gz
-  sha256: 062708901b5c84f323303b850e4bca23dc54f1c3bf3d43546efd77cd1db6328f
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/robert-{{ version }}.tar.gz
+  sha256: 1320802f0e6c80541af49c4ae456ac88146138e2045cf75c2f44cd88f012dc64
 
 build:
   noarch: python
